@@ -83,7 +83,7 @@
  * =================================================================== */
 
  .section-image {
- 	background: #151515 url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80) no-repeat center center;
+    background: #151515 url('../images/I2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -92,8 +92,9 @@
     position: relative;
     text-align: center;
     color: #fff;
-    display:table;
- }
+    display: table;
+  }
+  
 
  .img-overlay {
     position: absolute;
@@ -102,7 +103,7 @@
     width: 100%;
     height: 100%;
     background: #111111;
-    opacity: .7;
+    opacity: .4;
  }
 
  .intro {
@@ -202,8 +203,9 @@ section {
 
 .profilepic {
     height: 150px;
-    width: auto;
-    border-radius: 300px;
+    width: 150px;
+    border-radius: 500px;
+    
 }
 
 .section-primary p {
@@ -247,8 +249,10 @@ section {
 }
 
 #skills {
-    background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
-    height: auto;
+    background: #151515 url('../images/iii.jpg') no-repeat center center;
+    height: 100%;
+    width: 100%;
+   
 }
 
 
