@@ -28,6 +28,13 @@
    font-weight: 700;
    font-style: normal;
  }
+ .cinzel-p {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+  }
 
 .montserrat-main-body {
   font-family: "Montserrat", sans-serif;
@@ -48,7 +55,13 @@
    font-style: normal;
    font-size: medium;
 }
-
+.merienda-h2 {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+ }
 .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
