@@ -1,6 +1,6 @@
 ## Personal-Website
 This is a simple HTML, CSS, and JavaScript project designed to help you get started with these technologies. The project demonstrates a basic personal website.
-
+To see the Live Website -[Click here](https://aksharpanchani.github.io/Personal-Website/) or you can use this URL = https://aksharpanchani.github.io/Personal-Website/
 
 ## Adding a domain
 1. Click on "Settings" under your repository
