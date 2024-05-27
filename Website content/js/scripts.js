@@ -1,6 +1,3 @@
-// Reference v1.0 ClearCareer
-// url: clearcareer.ca
-
 // Smooth Scroll Function
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {

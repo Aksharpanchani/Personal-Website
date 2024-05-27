@@ -40,6 +40,15 @@ a {
   text-decoration: none;
 }
 
+
+body.light-theme .timeline {
+  background-color: #f0f0f0;
+}
+
+body.dark-theme .timeline {
+  background-color: #333;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
