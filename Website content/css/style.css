@@ -1,13 +1,7 @@
 /**
  * =================================================================== 
- *
- *  ResumeTemplate v1.0 ClearCareer
- *  url: clearcareer.ca
- *  Design by: Iskender Piyale-Sheard
- *  website: izzydoesizzy.com
- *  Created 06-27-2016
- *  Last Updated: 03-19-2017
- *  ------------------------------------------------------------------
+  *  Design by: Akshar Panchani
+  *  ------------------------------------------------------------------
  *  Table of Contents:
 
  *  01. Global Styles
@@ -25,14 +19,56 @@
 /* 01. Basic Styles
  * =================================================================== */
 
+ /* // <uniquifier>: Use a unique and descriptive class name
+ // <weight>: Use a value from 400 to 900 */
+ 
+ .cinzel-main-body {
+   font-family: "Cinzel", serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+ }
+
+.montserrat-main-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-siliguri-regular {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+ .merienda-main-body {
+   font-family: "Merienda", cursive;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: medium;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
  html {
     overflow-x: hidden;
  }
  body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Sevillana", cursive;
  }
 
  h1 {
+    
     font-weight: bold;
  }
 
@@ -227,6 +263,7 @@ section {
 
 .section-heading .lead, .section-heading h2 {
     text-align: center;
+    font-weight: bold;
 }
 
 .section-colour {
@@ -274,7 +311,6 @@ footer p {
     opacity: 0.8;
 }
 
-
 /* EXTRAS
  * =================================================================== */
 
@@ -283,7 +319,7 @@ footer p {
         /* Mouse Icon
          * =================================================================== */
         .mouse-icon {
-            border: 2px solid #fff;
+            border: 2px solid #1abc9c;
             border-radius: 16px;
             display: block;
             height: 50px;
@@ -303,7 +339,7 @@ footer p {
             animation-timing-function: linear;
         }
         .mouse-icon .scroll {
-            background: #fff none repeat scroll 0 0;
+            background: #1abc9c none repeat scroll 0 0;
             border-radius: 10px;
             height: 10px;
             margin-left: auto;
@@ -389,7 +425,7 @@ footer p {
     }
 
     #skills {
-        background: #151515 url(https://images.unsplash.com/photo-1456983933114-c22026990f4b?dpr=2&auto=format&crop=entropy&fit=crop&w=1280&h=720&q=80) no-repeat center center;
+        background: #151515 url('../images/iii.jpg') no-repeat center center;
         background-position: top center;
 
     }
